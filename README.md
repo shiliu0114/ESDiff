@@ -7,10 +7,9 @@ This repository contains the PyTorch implementation of the paper **"ESDiff: Enco
 ## Abstract
 Image inpainting is a technique used to restore missing or damaged regions of an image. Traditional methods primarily utilize information from adjacent pixels for reconstructing missing areas, while they struggle to preserve complex details and structures. Simultaneously, models based on deep learning necessitate substantial amounts of training data. To address this challenge, an encoding strategy-inspired diffusion model with few-shot learning for color image inpainting is proposed in this paper. The main idea of this novel encoding strategy is the deployment of a "virtual mask" to construct high-dimensional objects through mutual perturbations between channels. This approach enables the diffusion model to capture diverse image representations and detailed features from limited training samples. Moreover, the encoding strategy leverages redundancy between channels, integrates with low-rank methods during iterative inpainting, and incorporates the diffusion model to achieve accurate information output. Experimental results indicate that our method exceeds current techniques in quantitative metrics, and the reconstructed images quality has been improved in aspects oftexture and structural integrity, leading to more precise and coherent results.
 
-
+Index Terms—Color image inpainting, encoding strategy, few-shot learning, diffusion model.'
 
 ## Method Overview
-Index Terms—Color image inpainting, encoding strategy, few-shot learning, diffusion model.'
 <p align="center">
   <img src="assets/1.png" alt="ESDiff Overview" width="800">
   <br>
