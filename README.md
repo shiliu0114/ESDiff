@@ -32,7 +32,7 @@ Index Terms—Color image inpainting, encoding strategy, few-shot learning, diff
 <p align="center">
   <img src="assets/5.png" alt="Reverse restoration process for the RG perturbation case. T" width="800">
   <br>
-  <em>Figure 4: Reverse restoration process for the RG perturbation case. Through the saved virtual mask and the R channel image and G channel image disturbed by the G channel, we can restore the original image information.</em>
+  <em>Figure 4: Reverse restoration process for the RG perturbation case. Through the saved virtual mask and the R channel image and G channel image disturbed by the G channel, we can restore the original image information.</em>
 </p>
 
 
